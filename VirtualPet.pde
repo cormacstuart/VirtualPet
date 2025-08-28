@@ -1,13 +1,12 @@
 
-void setup(){
-  //some of your code here
+void setup()
+{
 size(500,500);
-
-
 }
-void draw(){
-  //more of your code here
 
+
+void draw()
+{
 noStroke();
 fill(230,230,90);
 
@@ -30,7 +29,29 @@ rect(220,480,20,10);
 rect(250,480,20,10);
 triangle(20,410,10,415,15,405);
 triangle(23,413,18,426,13,421);
-triangle(25,417,22,427,28,427);
+triangle(27,418,24,430,30,430);
+
+ellipse(126,290,60,30);
+ellipse(176,275,40,30);
+ellipse(116,330,40,30);
+ellipse(156,350,35,50);
+ellipse(156,350,35,50);
+
+noFill();
+stroke(0,0,0);
+arc(328,147,50,50,6*PI/20,3*PI/4);
+fill(0,0,0);
+ellipse(350, 155, 3, 5);
+ellipse(343, 157, 3, 5);
+ellipse(310, 136, 7, 9);
+ellipse(324, 135, 7, 9);
+
+
+
+
+
+
+
+
 
 }
-
